@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="require.1.0.8.min.js" ></script>
+<script type="text/javascript">
+	
+	console.log("Step-1");
+    requirejs(["test1","test2"], function(test1,test2) {
+
+    		  console.log("requireOver");
+
+          //test2.dosome();
+    		  console.log("requireMid");
+       		//test1.dosome();
+          
+       		//test2.dosome();
+
+    });
+    console.log("Step-2");
+
+</script>
+</body>
+</html>
