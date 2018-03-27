@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+  <style>
+    .p-btn{
+      float: left;
+      margin: 10px;
+      width: 300px; height: 100px;
+      text-align: center; line-height: 100px;
+      border:1px solid #999;
+      cursor: pointer; 
+    }
+  </style>
+
+</head>
+
+<body>
+
+<h1>jQuery(window).on('resize')注册了两个函数一个不延迟，一个延迟</h1>
+
+<div class="p-btn js-btn-stop">Stop 停止延迟执行</div>
+
+<div class="p-btn js-btn-normal">默认无参数,一直点击只会执行一次</div>
+
+<div class="p-btn js-btn-all-false">trailing，leading都为false</div>
+
+<div class="p-btn js-btn-leading">leading为true，trailing为false</div>
+
+<div class="p-btn js-btn-leading-notrailing">leading为true，trailing没有</div>
+
+<div class="p-btn js-btn-trailing">trailing为true,和默认效果一样</div>
+
+<div class="p-btn js-btn-trailing-leading">trailing，leading都为true</div>
+
+<div class="p-btn js-btn-time0">Time 0 </div>
+
+<div class="p-btn js-btn-leadingTime0">leading为false且Time 0</div>
+
+<div class="p-btn js-btn-maxWait">maxWait设为2000，一直点击2秒后执行</div>
+
+<script  src="../lodash.4.17.5.min.js" ></script>
+<script  src="../jquery.3.3.1.js" ></script>
+<script  src ="001_test_debounce.js" ></script>
+
+</body>
+</html>
