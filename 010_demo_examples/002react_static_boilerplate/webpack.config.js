@@ -41,7 +41,7 @@ const config = {
   // Options affecting the output of the compilation
   output: {
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/',
+    publicPath: './',
     filename: 'assets/[name].js',
     chunkFilename: 'assets/[name].js',
     sourcePrefix: '  ',

@@ -94,13 +94,5 @@
     "webpack": "^1.15.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.19.1"
-  },
-  "description": "> Static website starter kit powered by [React.js](http://facebook.github.io/react/) and [Webpack](http://webpack.github.io/)",
-  "main": "postcss.config.js",
-  "directories": {
-    "test": "test"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
