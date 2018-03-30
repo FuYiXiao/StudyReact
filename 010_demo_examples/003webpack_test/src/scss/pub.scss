@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import "compass/reset";
+
+/*页面的基本参数和函数*/
+@import "./modules/_base.scss";
+
+/*页面的整体框架*/
+@import "./modules/_wrapper.scss";

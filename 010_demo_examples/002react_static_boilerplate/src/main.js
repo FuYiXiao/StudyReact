@@ -1,5 +1,7 @@
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-undef */
+
+import "./static/1.jpg"
 import React from 'react'
 import ReactDOM from 'react-dom'
 import createHashHistory from 'history/lib/createHashHistory'

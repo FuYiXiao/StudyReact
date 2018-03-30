@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import "_base.scss";
+
+ul,ol {
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+
+.clearfix{
+  @include clearfix;
+}
+.pub-wrapper{
+	color: $baseWordColor;
+}
